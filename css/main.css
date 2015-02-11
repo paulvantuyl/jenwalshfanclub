@@ -62,9 +62,12 @@ textarea {
 
 body {
     margin: 2em;
-    font-family: 'Roboto', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 100;
     text-align: center;
+    background-color: #994F52;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
 }
 
 .img-responsive {
