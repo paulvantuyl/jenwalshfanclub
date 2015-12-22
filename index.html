@@ -2,23 +2,37 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Jen Walsh Fan Club</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <script src="js/vendor/snowstorm-min.js"></script>
+        <!-- <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/vendor/snowstorm-min.js"></script> -->
     </head>
     <body>
 
-        <a href="https://twitter.com/jendub" title="@jendub"><img class="img-responsive" src="img/jenwalsh-valentine.png" alt="Jen Walsh, Internet Famous Lady"></a>
+        <a href="https://twitter.com/jendub" title="@jendub"><img class="img-responsive" src="img/jenwalsh-christmas.png" alt="Jen Walsh, Internet Famous Lady"></a>
         <h1>Jen Walsh is internet famous.</h1>
 
-        <!--<script src="js/main.js"></script>-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="js/vendor/snow.min.js"></script>
+        <script>
+          jQuery(document).ready(function($){
+            $('body').wpSuperSnow({
+              flakes: ['img/snowflake.png', 'img/snowball.png'],
+              totalFlakes: '50',
+              zIndex: '999999',
+              maxSize: '50',
+              maxDuration: '25',
+              useFlakeTrans: '0'
+            });
+          });
+        </script>
+
     </body>
 </html>
