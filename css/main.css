@@ -60,12 +60,21 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
     margin: 2em;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 100;
     text-align: center;
-    background-color: #994F52;
+    background-color: #011933;
+    background-image: url(../img/snowmen_1600x900.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #fff;
     -webkit-font-smoothing: antialiased;
 }
