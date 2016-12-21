@@ -71,7 +71,8 @@ body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 300;
   text-align: center;
-  background-color: #309638;
+  background-color: #011933;
+  background-image: url(../img/snowmen_1600x900.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
